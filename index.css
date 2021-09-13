@@ -1,0 +1,81 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    display: inline;
+    align-items: center;
+}
+body {
+    background-color: hsl(225, 77%, 83%);
+}
+.parent{
+    background-image: url('/images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border-radius: 10px;
+    display: block;
+    width:400px;
+    height: 750px;
+    background-color: hsl(225, 100%, 98%);
+    
+    margin-left: 50px;
+}
+.first-box {
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 300px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+p {
+    display: inline-flex;
+    margin-top: 10px;
+    width: 300px;
+}
+.second-box {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+img {
+    display: inline-flex;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.price {
+    display: block;
+}
+.button-proceed{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    margin-top: 30px;
+    
+}
+.button-cancel {
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    border: 1px solid none; 
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
